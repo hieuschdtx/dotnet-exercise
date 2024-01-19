@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D1E19844-7C4C-4130-8880-78AD1B5DB96D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{C46D2C28-17E1-4AAE-A1F5-5C8AF52E6415}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1D567C02-A247-4503-8931-AFE32460A405}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jwt-authentication.API", "src\Jwt-authentication.API\Jwt-authentication.API.csproj", "{92485649-BED9-4FB8-BAA1-EA8B877D75BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jwt-authentication.Shared", "src\Jwt-authentication.Shared\Jwt-authentication.Shared.csproj", "{42F3F5BA-655D-4D01-9300-125327817F1D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92485649-BED9-4FB8-BAA1-EA8B877D75BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92485649-BED9-4FB8-BAA1-EA8B877D75BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92485649-BED9-4FB8-BAA1-EA8B877D75BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92485649-BED9-4FB8-BAA1-EA8B877D75BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F3F5BA-655D-4D01-9300-125327817F1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F3F5BA-655D-4D01-9300-125327817F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F3F5BA-655D-4D01-9300-125327817F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F3F5BA-655D-4D01-9300-125327817F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{92485649-BED9-4FB8-BAA1-EA8B877D75BF} = {D1E19844-7C4C-4130-8880-78AD1B5DB96D}
+		{42F3F5BA-655D-4D01-9300-125327817F1D} = {D1E19844-7C4C-4130-8880-78AD1B5DB96D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B8F6A86E-07AA-471D-B3B2-77B8CA3C4010}
+	EndGlobalSection
+EndGlobal
